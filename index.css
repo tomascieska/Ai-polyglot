@@ -18,7 +18,7 @@ body {
     align-items: center;
     /* justify-content: center; */
     max-width: 390px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(165, 165, 165);
     height: 100vh;
 }
 
@@ -88,4 +88,23 @@ textarea {
 label>img {
     text-align: center;
     padding: 5px;
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #035A9D;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.result {
+    color: black;
+    /* background-color: #fff; */
+    padding: 8px;
 }
