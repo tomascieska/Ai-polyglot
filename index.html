@@ -4,7 +4,34 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <!-- Your HTML here -->
+        <div class="container">
+            <header class="header">
+                    <img class="logo" src="assets/parrot.png" alt="parot logo">
+                    <div class="title">
+                        <h1>PollyGlot</h1>
+                        <h3>Perfect translation every time</h3>
+                    </div>
+            </header>
+
+            <main class="main">
+                <p>Text to translate <span></span></p>
+                <form>
+                    <textarea name="" id="to_translate" placeholder="Type your text there..."></textarea>
+                    <p>Select language</p>
+                    <div class="radio-container">    
+                        <input type="radio" id="French" name="languages" value="French">
+                        <label for="French">French <img src="assets/fr-flag.png" alt="French flag"></label>
+                        <br>
+                        <input type="radio" id="Spanish" name="languages" value="Spanish">
+                        <label for="Spanish">Spanish <img src="assets/sp-flag.png" alt="Spanish flag"></label>
+                        <br>
+                        <input type="radio" id="Japanese" name="languages" value="Japanese">
+                        <label for="Japanese">Japanese <img src="assets/jpn-flag.png" alt="Japanese flag"></label>
+                    </div>                    
+                </form>
+            </main>
+
+        </div>
         <script src="index.js" type="module"></script>
     </body>
 </html>
